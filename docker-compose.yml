@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  frontend:
+    build: .
+    image: "frontend-test-task:v1.0"
+    container_name: frontend
+    ports:
+      - "8080:80"

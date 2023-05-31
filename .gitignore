@@ -95,7 +95,6 @@ dist/
 .cache/
 # vuepress v2.x temp and cache directory
 .temp/
-.cache/
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
@@ -110,11 +109,16 @@ dist/
 # vscode
 .vs/
 .vscode/
+!.vscode/extensions.json
 .settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # Intellij
 .idea/
-out/
 *.iml
 *.ipr
 *.iws
